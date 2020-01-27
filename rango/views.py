@@ -8,6 +8,8 @@ def index(request):
     context_dict = {}
     context_dict['boldmessage'] = 'Crunchy, creamy, cookie, candy, cupcake!'
     context_dict['categories'] = category_list
+    pages_list = Page.objects.order_by('-views')[:5]
+    context_dict['pages'] = pages_list
     #context_dict = {'boldmessage': 'Crunchy, creamy, cookie, candy, cupcake!'}
     return render(request, 'rango/index.html', context=context_dict)
     #return HttpResponse("Rango says hey there partner! Go to <a href='/rango/about/'>About</a>")
