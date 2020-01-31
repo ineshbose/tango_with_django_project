@@ -1,7 +1,7 @@
 # Tango with Django 2 (UofG WAD2 Rango Assessment)
 
 This repository is used for WAD2 Assessment that requires to learn Django Web Framework by reading **Tango with Django 2 by Leif Azzopardi and David Maxwell (Version 2020-01a)**.
-Progress is tested through [the Model Solution](https://github.com/maxwelld90/tango_with_django_2_code) by [David Maxwell (maxwelld0)](https://github.com/maxwelld90).
+Progress is tested through [the Model Solution](https://github.com/maxwelld90/tango_with_django_2_code) by [David Maxwell](https://github.com/maxwelld90).
 
 ## Using this Repository
 Since this repository uses a virtual environment with specific packages, it is essential to activate it specifically.
@@ -14,7 +14,7 @@ If you haven't already created a virtual environment, you can do so using either
 
 * Python (Windows)
 
-    `$ py -m venv rango`
+    `$ python -m venv rango`
 
 * Python (macOS / Linux)
 
@@ -28,11 +28,11 @@ You can then activate the environment once created.
 
 * Python (Windows)
 
-     `$ .\env\Scripts\activate`
+     `$ .\rango\Scripts\activate`
 
 * Python (macOS / Linux)
 
-     `$ source env/bin/activate`
+     `$ source rango/bin/activate`
 
 
 This project uses Anaconda Prompt specifically as instructed.
