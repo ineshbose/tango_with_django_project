@@ -42,6 +42,7 @@ A `requirements.txt` file mentions all the packages along with their versions us
 
 `$ pip install -r requirements.txt`
 
+
 ### Running the App
 The main Python file is `manage.py`. The app can be run using
 
@@ -49,19 +50,21 @@ The main Python file is `manage.py`. The app can be run using
 
 and then use a browser to go to http://127.0.0.1:8000/
 
+
 ### Running the Tests
-As mentioned in [the Model Solution](https://github.com/maxwelld90/tango_with_django_2_code/tree/master/progress_tests), the following needs to be done.
+As mentioned in [the Model Solution](https://github.com/maxwelld90/tango_with_django_2_code/tree/master/progress_tests), the following needs to be done:
 1. The `rango` virtual environment needs to be active.
 2. From the model solution repository, the chapter test should be copied to the rango folder on this repository which is at the same level as `manage.py`.
 3. Run the following command
 
-`$ python manage.py test rango.tests_chapterX.py`
+    `$ python manage.py test rango.tests_chapterX.py`
 
-where X is the chapter number. If an error appears mentioning a .py attribute, run
+    where X is the chapter number. If an error appears mentioning a .py attribute, run
 
-`$ python manage.py test rango.tests_chapterX`
+    `$ python manage.py test rango.tests_chapterX`
 
-The test will mention all fails.
+    The test will mention all fails or print `OK` at the end if the app passes.
+
 
 
 ## About the Assessment
