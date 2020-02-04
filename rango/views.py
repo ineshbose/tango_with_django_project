@@ -21,7 +21,7 @@ def index(request):
     #context_dict = {'boldmessage': 'Crunchy, creamy, cookie, candy, cupcake!'}
     #request.session.set_test_cookie()
     visitor_cookie_handler(request)
-    context_dict['visits'] = request.session['visits']
+    #context_dict['visits'] = request.session['visits']
     response = render(request, 'rango/index.html', context=context_dict)
     return response
     #return HttpResponse("Rango says hey there partner! Go to <a href='/rango/about/'>About</a>")
