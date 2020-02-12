@@ -1,0 +1,7 @@
+
+db.sqlite3
+__pycache__
+rango/__pycache__
+rango/migrations
+rango/templatetags/__pycache__
+tango_with_django_project/__pycache__
