@@ -72,9 +72,15 @@ This repository will be assessed through automated testing.
 
 ### Checkpoint 1
 The first test, scheduled for 31 January 2020, would include tests for Chapters 3-10. This checkpoint is worth 10% of the overall mark. Passing any chapter test would award full marks.
+<br />
+**Report:** Passed 80 tests and failed 37 tests. Made 19 commits. <br />
+**Grade:** 10% out of 10%
 
 ### Checkpoint 2
 The second test, scheduled for 14 February 2020, would include tests for Chapters 3-10 (again), however, all tests must pass. This is worth 90% of the overall mark. In basic terms, the Rango app should be **successfully** completed.
+<br />
+**Report:** Passed 117 tests and failed 0 tests. Made 33 commits. <br />
+**Grade:** 90% out of 90%
 
 ### Commits
 It is expected to have **at least** one commit per chapter. Commit times will also be checked as they allow to detect plagiarism. For instance, a GitHub repository where all commits were
